@@ -1,3 +1,9 @@
+/**
+ * Team 16
+ * Githel Lynn Suico
+ * Nathan Lai
+ * Stores information about an employee's education
+ */
 public class Education {
     private String degree;
     private String major;

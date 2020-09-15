@@ -1,3 +1,9 @@
+/**
+ * Team 16
+ * Githel Lynn Suico
+ * Nathan Lai
+ * Represents a full time staff member
+ */
 public class Staff extends Employee {
     private double hourlyRate;
 
@@ -6,6 +12,7 @@ public class Staff extends Employee {
      */
     public Staff(){
         super();
+        hourlyRate = 0;
     }
 
     /**
@@ -14,8 +21,9 @@ public class Staff extends Employee {
      * @param firstName is first name of the staff member
      * @param ID is the employee identification number
      */
-    public Staff(String lastName, String firstName, String ID){
+    public Staff(String lastName, String firstName, String ID, double hourlyRate){
         super(lastName, firstName, ID);
+        this.hourlyRate = hourlyRate;
     }
 
 
@@ -38,7 +46,7 @@ public class Staff extends Employee {
      * @return Monthly earnings, hourly rate times full time hours (160)
      */
     public double monthlyEarning(){
-        return hourlyRate * 160;
+        return hourlyRate * STAFF_MONTHLY_HOURS_WORKED;
     }
 
     /**
@@ -46,6 +54,6 @@ public class Staff extends Employee {
      */
     @Override
     public String toString(){
-        return super.toString() + "\nFull Time \nMonthly Salary: $" + hourlyRate;
+        return super.toString() + "\nHourly rate: $" + hourlyRate;
     }
 }

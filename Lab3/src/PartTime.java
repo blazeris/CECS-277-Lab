@@ -1,3 +1,9 @@
+/**
+ * Team 16
+ * Githel Lynn Suico
+ * Nathan Lai
+ * Represents a part time staff member
+ */
 public class PartTime extends Staff {
     private int hoursWorked;
 
@@ -6,6 +12,7 @@ public class PartTime extends Staff {
      */
     public PartTime(){
         super();
+        this.hoursWorked = 0;
     }
 
     /**
@@ -15,8 +22,8 @@ public class PartTime extends Staff {
      * @param ID ID of employee
      * @param hoursWorked Number of hours worked by employee
      */
-    public PartTime(String lastName, String firstName, String ID, int hoursWorked){
-        super(lastName, firstName, ID);
+    public PartTime(String lastName, String firstName, String ID, double hourlyRate,int hoursWorked){
+        super(lastName, firstName, ID, hourlyRate);
         this.hoursWorked = hoursWorked;
     }
 
@@ -40,5 +47,17 @@ public class PartTime extends Staff {
      */
     public double monthlyEarning(){
         return getHourlyRate() * hoursWorked;
+    }
+
+
+    /**
+     * @return Summary of part timers's details
+     */
+    @Override
+    public String toString(){
+        String description = super.toString();
+        description += "\nHourly rate: " + getHourlyRate() +
+                        "\nHours worked per week: " + getHoursWorked();
+        return description;
     }
 }

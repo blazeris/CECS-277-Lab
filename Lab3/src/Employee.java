@@ -1,7 +1,10 @@
 /**
+ * Team 16
+ * Githel Lynn Suico
+ * Nathan Lai
  * Employee class meant to be the parent for all staff and faculty types in the school
  */
-public abstract class Employee {
+public abstract class Employee implements EmployeeInfo{
     private String lastName;
     private String firstName;
     private String ID;
@@ -10,6 +13,9 @@ public abstract class Employee {
      * Default constructor
      */
     public Employee(){
+        lastName = "n/a";
+        firstName = "n/a";
+        ID = "n/a";
     }
 
     /**
@@ -29,8 +35,8 @@ public abstract class Employee {
      */
     @Override
     public String toString(){
-        return "ID Employee number : " + ID + "\nEmployee name: " + firstName + " " + lastName;
-    }
+        return "Last name: " + lastName + "\nFirst Name: " + firstName + "\nID: " + ID;
+     }
 
     /**
      * @return Last name of employee
@@ -74,5 +80,9 @@ public abstract class Employee {
         this.ID = ID;
     }
 
+    /**
+     * Calculates the amount of money earned in a month
+     * @return the amount earned in a month
+     */
     abstract public double monthlyEarning();
 }
