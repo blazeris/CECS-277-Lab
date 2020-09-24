@@ -56,8 +56,7 @@ public class PartTime extends Staff {
     @Override
     public String toString(){
         String description = super.toString();
-        description += "\nHourly rate: " + getHourlyRate() +
-                        "\nHours worked per week: " + getHoursWorked();
+        description += "\nHours worked per week: " + getHoursWorked();
         return description;
     }
 }
