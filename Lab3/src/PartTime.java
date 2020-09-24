@@ -46,7 +46,7 @@ public class PartTime extends Staff {
      * @return monthly earnings
      */
     public double monthlyEarning(){
-        return getHourlyRate() * hoursWorked;
+        return 4 * getHourlyRate() * hoursWorked;
     }
 
 

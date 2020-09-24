@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a9403cb-1556-4c50-a53d-1c1c271930a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/Lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/Lab3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PartTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PartTime.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +78,7 @@
       <workItem from="1600141461554" duration="2772000" />
       <workItem from="1600295470577" duration="1470000" />
       <workItem from="1600297416821" duration="604000" />
-      <workItem from="1600906408400" duration="1969000" />
+      <workItem from="1600906408400" duration="2159000" />
     </task>
     <task id="LOCAL-00001" summary="finished lab3">
       <created>1600144112849</created>
@@ -94,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600144112849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished lab3 for real">
+      <created>1600908407985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600908407985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lab3" />
+    <MESSAGE value="finished lab3 for real" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lab3 for real" />
   </component>
 </project>
