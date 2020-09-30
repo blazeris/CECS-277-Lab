@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Test {
     public static void main(String[] args){
@@ -49,6 +50,14 @@ public class Test {
 
         // Testing total monthly salary for all employees
         System.out.println("Total monthly salary of employee: $" + totalEarnings(employees));
+
+        System.out.println("\nUnsorted list: \n" + employees);
+
+        Collections.sort(employees);
+        System.out.println("\nSorted by comparable (ID) list: \n" + employees);
+
+        Collections.sort(employees, new LastNameComparator());
+        System.out.println("\nSorted by comparator (last name) list: \n" + employees);
     }
 
     public static double totalEarnings(ArrayList<Employee> employees){
