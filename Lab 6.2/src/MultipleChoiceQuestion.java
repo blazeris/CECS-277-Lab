@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public class MultipleChoiceQuestion extends Question{
 
-public class MultipleChoiceQuestion {
 }

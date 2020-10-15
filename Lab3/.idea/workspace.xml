@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a9403cb-1556-4c50-a53d-1c1c271930a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab 6.2/src/MultipleChoiceQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 6.2/src/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab 6.2/src/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5/src/CashRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5/src/CashRegisterTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab5/src/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/ReportCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/Lab3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab4/Lab3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/out/production/Lab4/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/out/production/Lab4/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/src/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab6" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +92,11 @@
       <workItem from="1600297416821" duration="604000" />
       <workItem from="1600906408400" duration="4323000" />
       <workItem from="1601428166030" duration="58000" />
+      <workItem from="1602113855548" duration="164000" />
+      <workItem from="1602117903867" duration="926000" />
+      <workItem from="1602699006994" duration="9000" />
+      <workItem from="1602700113838" duration="265000" />
+      <workItem from="1602700419887" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="finished lab3">
       <created>1600144112849</created>

@@ -1,2 +1,2 @@
-public class Questions {
+public class Question {
 }

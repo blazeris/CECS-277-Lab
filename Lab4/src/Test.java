@@ -51,13 +51,19 @@ public class Test {
         // Testing total monthly salary for all employees
         System.out.println("Total monthly salary of employee: $" + totalEarnings(employees));
 
-        System.out.println("\nUnsorted list: \n" + employees);
-
+        // Sort using comparable
         Collections.sort(employees);
-        System.out.println("\nSorted by comparable (ID) list: \n" + employees);
+        System.out.println("\nSorted by comparable (ID) list: ");
+        for(Employee e: employees){
+            System.out.println(e.getID());
+        }
 
+        // Sort using comparator
         Collections.sort(employees, new LastNameComparator());
-        System.out.println("\nSorted by comparator (last name) list: \n" + employees);
+        System.out.println("\nSorted by comparator (last name) list: ");
+        for(Employee e: employees){
+            System.out.println(e.getLastName());
+        }
     }
 
     public static double totalEarnings(ArrayList<Employee> employees){
